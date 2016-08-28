@@ -1,0 +1,12 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Desire</title>
+</head>
+<body>
+{%- for w in wanted %}
+<a href="{{ w.link }}">{{ w.text }}</a>
+<br/><br/>
+{%- endfor %}
+</body>
+</html>
